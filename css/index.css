@@ -1,0 +1,108 @@
+
+/* 弹性布局 */
+.page {
+	max-width: 60em;
+	margin:0 auto;
+	/* 以上为布局部分 */
+}
+.masthead {
+	position: relative;
+	
+}
+.logo {
+	padding: .5em;
+}
+.social-sites {
+	position: absolute;
+	top: 1em;
+	right: .35em;
+}
+.nav-main {
+	border-top: 5px solid #008000;
+	border-bottom: 2px solid #435346;
+	padding: .25em 0;
+}
+.nav-main li,
+.nav-main a {
+	display: inline-block;
+}
+.nav-main a {
+	line-height: 1.5;
+	text-decoration: none;
+	font-size: 1.25em;
+	font-weight: 700;
+	padding: 0 1em;
+	border-left: 1px  dashed #435346;
+}
+.nav-main li:first-child a{
+	border-left: none;
+}
+.nav-main a:link {
+	color: #435346;
+}
+.nav-main a:hover {
+	color: #993388;
+}
+main {
+	width: 62.5%;
+	float: left;
+	box-shadow: 2px 0 5px #435346;
+	padding: .5em;
+}
+main h1 {
+	font-size: 2em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+main img {
+	width:20%;
+	display: block;
+	float: left;
+	margin-right: .5em;
+}
+p {
+	text-indent: 2em;
+}
+main section {
+	padding: .75em 0;
+	border-top: 2px dotted #123456;
+}
+main section:first-child {
+	border-top: none;
+}
+main nav ol,
+main ol li {
+	display: inline;
+}
+.sidebar {
+	width: 31.25%;
+	float: right;
+	/* 以上为布局部分 */
+}
+.sidebar .about,
+.sidebar aside {
+	margin-bottom: 5%;
+	box-shadow: 0 2px 5px #199009; 
+	padding: 1em .25em;;
+}
+
+body{
+	overflow: auto;
+}
+p {
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

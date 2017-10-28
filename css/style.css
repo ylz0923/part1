@@ -1,0 +1,174 @@
+
+body{
+	background-image:url(../images/bg.png);
+}
+.page {
+	max-width:960px;
+	margin:0 auto;
+	border: 2px solid #ccc;
+	background-color:#fff;
+}
+/* ===头部=== */
+.masthead {
+	background-color:#eee;
+	padding-top:8px;
+	position:relative;
+}
+.logo {
+	display:inline-block;
+}
+.social-sites {
+	display:inline-block;
+	position:absolute;
+	right:1em;
+	top:1em;
+}
+.social-sites li{
+	display:inline-block;
+}
+.social-sites img{
+	border-radius:20px;
+}
+
+.nav-main{
+	/* 绿色 */
+	border-top: 5px solid #019443;
+	/* 灰色 */
+	border-bottom: 2px solid #c8c8c8;
+	padding: .45em 0 .5em;
+}
+.nav-main li {
+	display:inline-block;
+	/*margin-right:-0.25em;解决标签之间的一个字符空白问题*/  
+	border-left: 1px dashed #c8c8c8;
+}
+.nav-main li:first-child{
+	border-left:none;
+}
+.nav-main a {
+	text-decoration-line: none;
+	display:inline-block;
+	font-size:1.125em;
+	padding:.5em 1.15em .5em;
+	color:#938;
+}
+.nav-main a:hover {
+	color:#000;
+	background-color:orange;
+}
+/* ===主体部分=== */
+main {
+	width: 600px;
+	margin: .25em .5em .25em 0.25em;
+	box-shadow: .125em -.125em 5px purple;
+	padding: 0 .75em 0;
+	float:left;
+	background-color:#eee;
+}
+h1{
+	text-transform:uppercase;
+	color: #199009;
+	margin-bottom: 0em;
+}
+
+h2{
+	color: #900923;
+	margin-bottom: .25em;
+}
+figure img{
+	float:left;
+	margin-right: 1em;
+	
+}
+figure {
+	margin:0;
+}
+p {
+	font-size:1.25em;
+	text-indent: 1em;
+	line-height:1.5;
+	word-break:break-all;
+	font-weight:400;
+	letter-spacing: -.05em;
+	text-shadow:2px 2px 5px #555;
+}
+/*p:first-letter{
+	text-transform:uppercase;
+}         导致鼠标选择文本时产生偏移*/
+
+
+.container {
+	margin:.25em;
+	/*overflow:hidden; 解决浮动元素高度为0的问题 */
+}
+
+
+.sidebar{
+	width:300px;
+	margin-right: .5em;
+	float:right;
+	min-height:500px;
+}
+
+.about {
+	background-color:#ccc;
+	color:#123456;
+	padding: .3125em .625em .625em;
+	margin-top: .25em;
+	box-shadow: 2px 2px 5px #435346;
+}
+.mod {
+	margin: 5em 0 5em;
+	background-color:#ccc;
+	color:#123456;
+	padding: .3125em .625em .625em;
+	box-shadow: 2px 2px 5px #435346;
+	background-color:#eee;
+}
+.mod a{
+	text-decoration-line:none;
+	line-height:1.5;
+	color:bule;
+}
+.mod a:link{
+	color:green;
+}
+.mod a:visied{
+	color:purple;
+}
+.mod a:hover{
+	color:red;
+}
+.links {
+	list-style-type:none;
+}
+.site-message{
+	list-style-type:none;
+}
+
+main nav{
+	margin:.25em;
+	
+}
+nav ol {
+	list-style-type:none;
+}
+ol li{
+	display:inline-block;
+	line-height:1.5;
+	padding-left:1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
